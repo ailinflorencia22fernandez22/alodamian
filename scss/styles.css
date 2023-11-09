@@ -44,59 +44,6 @@ footer {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  header {
-    display: block;
-    flex-direction: column;
-    width: 100%;
-    font-size: 16%;
-    font-weight: normal;
-  }
-  header .conteiner {
-    display: block;
-    flex-direction: column;
-    width: 100%;
-  }
-  header .conteiner .logo {
-    width: 100%;
-    display: block;
-  }
-  header .conteiner .menu {
-    margin: 0;
-  }
-  header .conteiner .menu nav {
-    display: block;
-  }
-  header .conteiner .menu nav ul {
-    float: none;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  header .conteiner .menu nav ul li a {
-    font-size: small;
-  }
-  .contenedorpadre {
-    display: block;
-    flex-direction: column;
-  }
-  .contenedorpadre .carrucel {
-    width: 100%;
-  }
-  .iconoimg {
-    display: block;
-  }
-  .iconoimg .icono img {
-    width: 100%;
-  }
-  .iconoimg .conteinerinfo {
-    margin: 0;
-    padding: 5px;
-  }
-  .iconoimg .conteinerinfo .conteinerinfo p {
-    font-size: 10px;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -178,49 +125,4 @@ footer {
   text-align: center;
   font-family: "Inconsolata", monospace;
   color: black;
-}
-
-.servicios {
-  text-align: center;
-  font-family: "Inconsolata", monospace;
-}
-
-.conteiner-contacto2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-.conteiner-contacto2 .conteinercontacto {
-  display: flex;
-  column-gap: 1rem;
-  row-gap: 0;
-  flex-wrap: wrap;
-  margin: 50px;
-  background-color: #F24405;
-  padding: 5%;
-  border-radius: 50px;
-}
-.conteiner-contacto2 .conteinercontacto .conteinercontacto label {
-  margin: 30px;
-}
-.conteiner-contacto2 .conteinercontacto .conteinercontacto input {
-  width: 20%;
-}
-.conteiner-contacto2 .conteinercontacto .conteinercontacto input textarea {
-  width: 10%;
-}
-.conteiner-contacto2 .conteinercontacto .botonformulario {
-  margin: 2%;
-  width: 5vw;
-}
-.conteiner-contacto2 .conteinercontacto .conteinerformulario {
-  width: 50%;
-  height: 60vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "nombre" "email" "mensaje" "none";
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

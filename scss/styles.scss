@@ -1,0 +1,138 @@
+@import "general";
+@import "base";
+@import "variables";
+//extend
+%flexrow{
+    display: flex;
+    flex-direction: row;
+}
+//scss index
+.contenedorpadre{
+    @extend%flexrow;
+    justify-content: space-around;
+
+.carrucel{
+    @extend%flexrow;
+    justify-content: space-around;
+    width: 40%;
+    margin: 2%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.compra{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+}
+.iconoimg{
+    @extend%flexrow;
+    margin: 2%;
+}
+.conteinerinfo{
+    margin: 10%;
+    background-color:rgb(242, 68, 5) ;
+    font-family: 'Inconsolata', monospace;
+}
+.info1{
+    margin: 5%;
+    .infop{
+        background-color:rgb(242, 68, 5) ;
+        font-family: 'Inconsolata', monospace;
+    }
+    
+    
+}
+.info2{
+    margin: 5%;
+    .infop{
+        background-color:rgb(242, 68, 5) ;
+        font-family: 'Inconsolata', monospace;
+    }
+    
+}
+.info3{
+    margin: 5%;
+    .infop{
+        background-color:rgb(242, 68, 5) ;
+        font-family: 'Inconsolata', monospace;
+    }
+    
+}
+.nosotros{
+    margin: 2%;
+    text-align: center;
+    flex-direction: row;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+
+}
+.conteinernostr{
+    background-color: hsla(240, 100%, 50%, 0.5);
+    .nosotrosrefe{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        color: black;
+    }
+    
+    .nosotrosrefe2{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        color: black;
+    }
+}
+.servicios{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+
+}
+.conteiner-contacto2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    .conteinercontacto{
+        display: flex;
+        column-gap: 1rem;
+        row-gap: 0;
+        flex-wrap: wrap;
+        margin: 50px;
+        background-color:#F24405 ;
+        padding: 5%;
+        border-radius: 50px;
+
+        
+        .conteinercontacto label{
+            margin: 30px;
+             
+        }
+        .conteinercontacto input{
+            width: 20%;
+            textarea{
+                width: 10%;
+            }
+            
+        }
+        
+        .botonformulario{
+            margin: 2%;
+            width: 5vw;
+        }
+        .conteinerformulario{
+            width: 50%;
+            height: 60vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:1fr 1fr 1fr;
+            grid-template-areas: 
+              "nombre" "email"
+              "mensaje" "none"
+               ;
+               
+        }
+    
+    }
+}
