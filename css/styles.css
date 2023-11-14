@@ -131,6 +131,7 @@ footer {
 .conteinerinfo {
   margin: 10%;
   background-color: rgb(242, 68, 5);
+  background-image: radial-gradient(hsla(240, 100%, 50%, 0.5), rgb(242, 68, 5));
   font-family: "Inconsolata", monospace;
 }
 
@@ -139,6 +140,7 @@ footer {
 }
 .info1 .infop {
   background-color: rgb(242, 68, 5);
+  background-image: radial-gradient(pink, rgb(242, 68, 5));
   font-family: "Inconsolata", monospace;
 }
 
@@ -147,6 +149,7 @@ footer {
 }
 .info2 .infop {
   background-color: rgb(242, 68, 5);
+  background-image: radial-gradient(pink, rgb(242, 68, 5));
   font-family: "Inconsolata", monospace;
 }
 
@@ -155,6 +158,7 @@ footer {
 }
 .info3 .infop {
   background-color: rgb(242, 68, 5);
+  background-image: radial-gradient(rgb(242, 68, 5), pink);
   font-family: "Inconsolata", monospace;
 }
 

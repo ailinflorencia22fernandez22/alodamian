@@ -35,12 +35,14 @@
 .conteinerinfo{
     margin: 10%;
     background-color:rgb(242, 68, 5) ;
+    background-image: radial-gradient( hsla(240, 100%, 50%, 0.5),rgb(242, 68, 5) );
     font-family: 'Inconsolata', monospace;
 }
 .info1{
     margin: 5%;
     .infop{
         background-color:rgb(242, 68, 5) ;
+        background-image: radial-gradient( pink,rgb(242, 68, 5) );
         font-family: 'Inconsolata', monospace;
     }
     
@@ -50,6 +52,7 @@
     margin: 5%;
     .infop{
         background-color:rgb(242, 68, 5) ;
+        background-image: radial-gradient( pink,rgb(242, 68, 5) );
         font-family: 'Inconsolata', monospace;
     }
     
@@ -58,6 +61,7 @@
     margin: 5%;
     .infop{
         background-color:rgb(242, 68, 5) ;
+        background-image: radial-gradient(rgb(242, 68, 5), pink );
         font-family: 'Inconsolata', monospace;
     }
     
